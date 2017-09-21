@@ -1,8 +1,10 @@
 package com.kitcenter.runners.classwork.lesson4;
 
-public class WideningCasting {
+import com.kitcenter.app.classwork.lesson4.WideningCasting;
+
+public class WideningCastingRunner {
     public static void main(String[] args) {
-        WideningCasting cast = new WideningCasting();
-        cast.widening();
+        WideningCasting casting = new WideningCasting();
+        casting.widening();
     }
 }
