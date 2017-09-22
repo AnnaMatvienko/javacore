@@ -76,8 +76,9 @@ public class MathAllFuncTest {
 
     @Test
     public void roundTest() {
-        double a = 3.88, b = 2.77, expRes = 0.56;
-        Assert.assertEquals(1, Double.compare(expRes, MathRound.round(a, b)));
+        double a = 3.88, b = 0.55, expRes = 1.0;
+        System.out.println("Round value = " + MathRound.round(a, b));
+        Assert.assertEquals(0, Double.compare(expRes, MathRound.round(a, b)));
     }
 
     @Test
@@ -95,6 +96,7 @@ public class MathAllFuncTest {
     @Test
     public void bisectorTest() {
         double a = 9.0, b = 6.0, c = 3.0, expRes = 7.2;
+        System.out.println("Bisector = " + MathBisector.bisector(a, b, c));
         Assert.assertEquals(0, Double.compare(expRes, MathBisector.bisector(a, b, c)));
     }
 
@@ -106,8 +108,9 @@ public class MathAllFuncTest {
 
     @Test
     public void medianaTest() {
-        double a = 3.3, b = 3.9, c = 3.12, expRes = 3.26;
-        Assert.assertEquals(1, Double.compare(expRes, MathMediana.mediana(a, b, c)));
+        double a = 3.3, b = 3.9, c = 3.12, expRes = 3.2582817557725114;
+        System.out.println("Mediana = " + MathMediana.mediana(a, b, c));
+        Assert.assertEquals(0, Double.compare(expRes, MathMediana.mediana(a, b, c)));
     }
 
     @Test
@@ -118,19 +121,22 @@ public class MathAllFuncTest {
 
     @Test
     public void sphereAreaTest() {
-        double pi = 3.14, r = 3.123, expRes = 122.5;
-        Assert.assertEquals(1, Double.compare(expRes, MathSphereArea.sphereArea(pi, r)));
+        double pi = 3.14, r = 3.123, expRes = 122.49930024000003;
+        System.out.println("Sphere Area = " + MathSphereArea.sphereArea(pi, r));
+        Assert.assertEquals(0, Double.compare(expRes, MathSphereArea.sphereArea(pi, r)));
     }
 
     @Test
     public void sphereVolumeTest() {
-        double pi = 3.14, r = 3.123, expRes = 127.52;
-        Assert.assertEquals(1, Double.compare(expRes, MathSphereVolume.sphereVolume(pi, r)));
+        double pi = 3.14, r = 3.123, expRes = 127.20296712096544;
+        System.out.println("Sphere Volume = " + MathSphereVolume.sphereVolume(pi, r));
+        Assert.assertEquals(0, Double.compare(expRes, MathSphereVolume.sphereVolume(pi, r)));
     }
 
     @Test
     public void circuitTest() {
-        double pi = 3.14, r = 3.123, expRes = 19.61;
-        Assert.assertEquals(-1, Double.compare(expRes, MathCircuit.circuit(pi, r)));
+        double pi = 3.14, r = 3.123, expRes = 19.612440000000003;
+        System.out.println("Circuit = " + MathCircuit.circuit(pi, r));
+        Assert.assertEquals(0, Double.compare(expRes, MathCircuit.circuit(pi, r)));
     }
 }
