@@ -4,7 +4,7 @@ import com.kitcenter.app.homework.lesson5.*;
 
 import java.util.Scanner;
 
-public class Lesson4AllTasksRunner {
+public class Lesson5AllTasksRunner {
     public static void main(String[] args) {
         while (true) {
             System.out.println("Choose menu number that should be executed:");

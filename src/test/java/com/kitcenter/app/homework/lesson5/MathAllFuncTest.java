@@ -14,8 +14,8 @@ public class MathAllFuncTest {
         int a = -15, expRes = 15;
         Assert.assertEquals(expRes, MathAbs.abs(a));
         //test for positive values
-        a = 15;
-        expRes = 15;
+        a = 12;
+        expRes = 12;
         Assert.assertEquals(expRes, MathAbs.abs(a));
     }
 
