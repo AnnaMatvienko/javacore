@@ -1,3 +1,2 @@
-argumentA, argumentB, expectedResult
-3.14, 3.123, 122.49930024000003
-3.14159265359, 3.123, 122.56143366366236
+argumentA, expectedResult
+3.123, 122.56143366366236
