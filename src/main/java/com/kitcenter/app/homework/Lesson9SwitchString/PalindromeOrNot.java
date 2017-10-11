@@ -32,7 +32,7 @@ public class PalindromeOrNot {
             arr2[(arr.length - 1) - i] = arr[i];
         }
         String palindrome2 = new String(arr2);
-        System.out.println(new String(arr2));
+        System.out.println("Reversed string value: " + new String(arr2));
         if (palindrome.equalsIgnoreCase(palindrome2)) {
             System.out.println("Palindrome: " + palindrome);
         } else

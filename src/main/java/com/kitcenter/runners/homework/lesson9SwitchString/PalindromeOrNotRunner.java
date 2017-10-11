@@ -18,6 +18,8 @@ public class PalindromeOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeOrNot(palindrome);
+        System.out.println("");
+
         System.out.println("Method2. Enter a word (or a phrase, but without spaces) to define whether it is a palindrome or not: ");
         try {
             palindrome = bfreader.readLine();
@@ -26,6 +28,8 @@ public class PalindromeOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeOrNot2(palindrome);
+        System.out.println("");
+
         System.out.println("Method3. Enter a word (or a phrase, but without spaces) to define whether it is a palindrome or not: ");
         try {
             palindrome = bfreader.readLine();
@@ -34,5 +38,6 @@ public class PalindromeOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeOrNot3(palindrome);
+        System.out.println("");
     }
 }

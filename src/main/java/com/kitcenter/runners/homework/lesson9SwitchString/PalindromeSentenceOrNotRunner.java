@@ -18,6 +18,7 @@ public class PalindromeSentenceOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeSentenceOrNot(palindrome);
+        System.out.println("");
 
         System.out.println("Method2. Enter a word (or a phrase, spaces/commas are allowed) to define whether it is a palindrome or not: ");
         try {
@@ -27,6 +28,7 @@ public class PalindromeSentenceOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeSentenceOrNot2(palindrome);
+        System.out.println("");
 
         System.out.println("Method3. Enter a word (or a phrase, spaces/commas are allowed) to define whether it is a palindrome or not: ");
         try {
@@ -36,6 +38,7 @@ public class PalindromeSentenceOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeSentenceOrNot3(palindrome);
+        System.out.println("");
 
         System.out.println("Method4. Enter a word (or a phrase, spaces/commas are allowed) to define whether it is a palindrome or not: ");
         try {
@@ -45,6 +48,7 @@ public class PalindromeSentenceOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeSentenceOrNot4(palindrome);
+        System.out.println("");
 
         System.out.println("Method5. Enter a word (or a phrase, spaces/commas are allowed) to define whether it is a palindrome or not: ");
         try {
@@ -54,5 +58,6 @@ public class PalindromeSentenceOrNotRunner {
         }
         System.out.println(palindrome);
         palindromeSentenceOrNot5(palindrome);
+        System.out.println("");
     }
 }
