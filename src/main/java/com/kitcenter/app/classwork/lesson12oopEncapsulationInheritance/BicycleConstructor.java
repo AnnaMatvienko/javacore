@@ -31,7 +31,7 @@ public class BicycleConstructor { //class name
         this.color = color;
     }
 
-    public BicycleConstructor (int weight, int ownerAge){
+    public BicycleConstructor(int weight, int ownerAge) {
         this.weight = weight;
         this.ownerAge = ownerAge;
         this.wheelSize = 25;

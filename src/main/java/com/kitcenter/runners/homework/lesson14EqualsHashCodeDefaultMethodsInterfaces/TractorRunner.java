@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson14EqualsHashCodeDefaultMethodsInterfaces
 
 public class TractorRunner {
     public static void main(String[] args) {
-        WheeledTractor wheeledTractor = new WheeledTractor("Koloss",45,1200,8);
+        WheeledTractor wheeledTractor = new WheeledTractor("Koloss", 45, 1200, 8);
         CaterpillarTractor caterpillarTractor = new CaterpillarTractor("Rodoss", 55, 1400, 0);
         wheeledTractor.showTransportName();
         wheeledTractor.getPassengersQuantity();

@@ -11,6 +11,6 @@ public class StudentGetterSetterRunner {
         StudentGetterSetter student = new StudentGetterSetter("Anna", "DASOA", "cybernetics", "Hello", 18);
         nameIs();
         allDataDisplayed();
-        ageIs(1980,2017);
+        ageIs(1980, 2017);
     }
 }

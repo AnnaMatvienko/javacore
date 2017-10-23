@@ -2,6 +2,8 @@ package com.kitcenter.app.homework.lesson14EqualsHashCodeDefaultMethodsInterface
 
 public interface Tableware {
     boolean isChina();
+
     int getVolume();
+
     void showInfo();
 }

@@ -1,8 +1,8 @@
 package com.kitcenter.app.homework.lesson13OOPpolymorphismInheritanceComposition;
 
 public class CustomBicycle extends Bicycle {
-   private int speed;
-   private int gear;
+    private int speed;
+    private int gear;
 
     @Override
     public void setSpeed(int speed) {

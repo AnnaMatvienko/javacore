@@ -13,6 +13,6 @@ public class Cup implements Tableware {
 
     @Override
     public void showInfo() {
-        System.out.println("Cup info: china: "+isChina()+" with volume: "+getVolume()+" ml.");
+        System.out.println("Cup info: china: " + isChina() + " with volume: " + getVolume() + " ml.");
     }
 }

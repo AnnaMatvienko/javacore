@@ -13,6 +13,6 @@ public class Dish implements Tableware {
 
     @Override
     public void showInfo() {
-        System.out.println("Dish info: china: "+isChina()+" with volume: "+getVolume()+" ml.");
+        System.out.println("Dish info: china: " + isChina() + " with volume: " + getVolume() + " ml.");
     }
 }

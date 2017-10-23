@@ -11,8 +11,8 @@ public class Person {
         System.out.println("My name is Anna!");
     }
 
-    public static final int ageIs (int birthdate, int today){
-       int age = today-birthdate;
+    public static final int ageIs(int birthdate, int today) {
+        int age = today - birthdate;
         System.out.println(age);
         return age;
     }
