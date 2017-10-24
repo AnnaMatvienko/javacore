@@ -1,4 +1,4 @@
-package com.kitcenter.app.classwork.lesson15Enumeration;
+package com.kitcenter.app.classwork.lesson15EnumerationGenerics;
 
 public enum Holiday {
     NEW_YEAR(1, "January", "New Year"), CHRISTMAS(7, "January", "Christmas"), OLD_NEW_YEAR(14, "January", "Old New Year");

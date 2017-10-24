@@ -1,4 +1,4 @@
-package com.kitcenter.runners.classwork.lesson15Enumeration;
+package com.kitcenter.runners.classwork.lesson15EnumerationGenerics;
 
 import com.kitcenter.app.classwork.lesson15EnumerationGenerics.Holiday;
 

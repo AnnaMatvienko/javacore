@@ -1,4 +1,4 @@
-package com.kitcenter.runners.classwork.lesson12oopEncapsulationInheritanceRunner;
+package com.kitcenter.runners.classwork.lesson12oopEncapsulationInheritance;
 
 import com.kitcenter.app.classwork.lesson12oopEncapsulationInheritance.BicycleConstructor;
 

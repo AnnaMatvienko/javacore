@@ -1,4 +1,4 @@
-package com.kitcenter.runners.classwork.lesson10_11FileExceptionRunner;
+package com.kitcenter.runners.classwork.lesson10_11FileException;
 
 import com.kitcenter.app.classwork.lesson10_11FileException.GetFilePath;
 

@@ -1,4 +1,4 @@
-package com.kitcenter.runners.classwork.lesson15Enumeration;
+package com.kitcenter.runners.classwork.lesson15EnumerationGenerics;
 
 import com.kitcenter.app.classwork.lesson15EnumerationGenerics.MenuItem;
 import com.kitcenter.app.homework.lesson5UnitTesing.MathAbs;
@@ -16,7 +16,6 @@ public class MenuItemRunner {
             System.out.println("Run MathAverage");
             System.out.println("Run MathMax");
             System.out.println("Run MathMin");
-
 
             try {
                 Scanner scanner = new Scanner(System.in);

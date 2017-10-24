@@ -1,4 +1,4 @@
-package com.kitcenter.app.classwork.lesson15Enumeration;
+package com.kitcenter.app.classwork.lesson15EnumerationGenerics;
 
 public class Test {
     public static void main(String[] args) {
