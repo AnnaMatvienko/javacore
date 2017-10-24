@@ -1,6 +1,6 @@
 package com.kitcenter.runners.classwork.lesson15Enumeration;
 
-import com.kitcenter.app.classwork.lesson15Enumeration.MenuItem;
+import com.kitcenter.app.classwork.lesson15EnumerationGenerics.MenuItem;
 import com.kitcenter.app.homework.lesson5UnitTesing.MathAbs;
 import com.kitcenter.app.homework.lesson5UnitTesing.MathAverage;
 import com.kitcenter.app.homework.lesson5UnitTesing.MathMax;
