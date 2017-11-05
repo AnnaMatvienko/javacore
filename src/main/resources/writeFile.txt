@@ -1,0 +1,9 @@
+Palindrome: arozaupalanalapuAZORA
+Palindrome: MoOM
+Palindrome: kaZaK
+!Not a palindrome: qwerty5676ytrewq
+!Not a palindrome: sSsTtS
+Palindrome: 123321
+Palindrome: 666666
+Palindrome: 8881888
+!Not a palindrome: moloko

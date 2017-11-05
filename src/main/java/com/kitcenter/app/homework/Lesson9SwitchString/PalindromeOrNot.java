@@ -17,11 +17,13 @@ public class PalindromeOrNot {
         }
     }
 
-    public static void palindromeOrNot2(String palindrome) {
+    public static String palindromeOrNot2(String palindrome) {
         if (palindrome.equalsIgnoreCase(new StringBuilder(palindrome).reverse().toString())) {
             System.out.println("Palindrome: " + palindrome);
+            return ("Palindrome: " + palindrome);
         } else {
             System.out.println("!Not a palindrome: " + palindrome);
+            return ("!Not a palindrome: " + palindrome);
         }
     }
 
