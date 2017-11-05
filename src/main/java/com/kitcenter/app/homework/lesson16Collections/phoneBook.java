@@ -1,4 +1,4 @@
-package com.kitcenter.runners.homework.lesson16Collections;
+package com.kitcenter.app.homework.lesson16Collections;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,12 @@ public class phoneBook {
     public void showAllPhoneBookEntries() {
         for (PhoneBookEntry el : phoneBookEntryList) {
             el.showEntry();
-        }
+        }}
 
+    public void showPhoneBookEntriesForCategory(int categoryIndex) {
+        for (PhoneBookEntry el : phoneBookEntryList) {
+            if (el.getCategoryNumber()==categoryIndex){
+            el.showEntry();
+        }}
 
 }}

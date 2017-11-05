@@ -1,4 +1,4 @@
-package com.kitcenter.runners.homework.lesson16Collections;
+package com.kitcenter.app.homework.lesson16Collections;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,19 @@ public class Category {
 
     public void showAllCategories() {
         for (String el : categoriesList) {
-            System.out.println("Category name: " + el);
+            System.out.println(categoriesList.indexOf(el) + ") Category name: " + el);
         }
+    }
+
+    public int checkWhetherCategoryExits(String item) {
+        int result = -1;
+        for (String el : categoriesList) {
+            if (item.equalsIgnoreCase(el)) {
+                result = categoriesList.indexOf(el);
+                System.out.println("The category you entered already exists. You will be proceed to work with this category #" + result);
+                return result;
+            }
+        }
+        return result;
     }
 }

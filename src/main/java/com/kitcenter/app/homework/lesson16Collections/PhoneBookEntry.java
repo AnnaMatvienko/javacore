@@ -1,4 +1,4 @@
-package com.kitcenter.runners.homework.lesson16Collections;
+package com.kitcenter.app.homework.lesson16Collections;
 
 public class PhoneBookEntry {
     private String name;
